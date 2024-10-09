@@ -48,7 +48,7 @@ export default function Navbar() {
       </button>
       {menuOpen && (
         <motion.div
-          className="box mx-auto absolute top-16 right-0 w-64 bg-slate-100 shadow-md p-4 flex flex-col items-center md:hidden max-width-md"
+          className="z-10 box mx-auto absolute top-16 right-0 w-64 bg-slate-100 shadow-md p-4 flex flex-col items-center md:hidden max-width-md"
           initial={{ opacity: 0, scale: 0.2 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.2 }}
