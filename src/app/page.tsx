@@ -43,7 +43,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          X for profound shitposting
+          for profound shitposting
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
