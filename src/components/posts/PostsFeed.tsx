@@ -5,8 +5,13 @@ type Post = {
   content: string;
 };
 
-export default async function PostsFeed() {
-  const posts: Post[] = await getPosts(1, 3);
+type PostsFeedProps = {
+  page: number;
+  perPage: number;
+};
+
+export default async function PostsFeed({ page, perPage }: PostsFeedProps) {
+  const posts: Post[] = await getPosts(page, perPage);
 
   return (
     <div className="container mx-auto max-w-screen-sm">
