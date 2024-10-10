@@ -6,7 +6,13 @@ export default function Home() {
     <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-8 grid-rows-2 items-center sm:items-start">
         <ProfilePic />
-        <div>This is my playground app for me to play around with.</div>
+        <div>
+          <p>
+            This is my playground app for me to experiment with software
+            engineering. I&apos;ve also got a feed of my blog posts{" "}
+            <a href="/posts">here</a>. You can checkout my Wordpress site below.
+          </p>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
