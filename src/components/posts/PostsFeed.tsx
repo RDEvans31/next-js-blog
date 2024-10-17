@@ -10,6 +10,8 @@ type PostsFeedProps = {
   perPage: number;
 };
 
+export const revalidate = 3600 * 24;
+
 export default async function PostsFeed({ page, perPage }: PostsFeedProps) {
   const posts: Post[] = await getPosts(page, perPage);
 
