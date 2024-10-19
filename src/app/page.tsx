@@ -16,9 +16,9 @@ export default function Home() {
         </div>
         <div>
           <p>
-            This is my playground app for me to experiment with software
-            engineering. I&apos;ve also got a feed of my blog posts{" "}
-            <a href="/posts">here</a>. You can checkout my Wordpress site below.
+            This is app is for me to explore software engineering. I&apos;ve
+            also got a feed of my blog posts <a href="/posts">here</a>. You can
+            checkout my Wordpress site below.
           </p>
         </div>
       </main>
@@ -30,6 +30,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Image
+            className="dark:invert"
             aria-hidden
             src="/icons/github-mark.png"
             alt="Github icon"
@@ -45,6 +46,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <Image
+            className="dark:invert"
             aria-hidden
             src="/icons/x-logo-black.png"
             alt="X icon"
@@ -64,7 +66,7 @@ export default function Home() {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="black"
-            className="size-6"
+            className="size-6 dark:invert"
           >
             <path
               strokeLinecap="round"
@@ -86,7 +88,7 @@ export default function Home() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="black"
-            className="size-6"
+            className="size-6 dark:invert"
           >
             <path
               strokeLinecap="round"
